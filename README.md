@@ -1,16 +1,28 @@
-# genarator_tracker
+# Generator Tracker Flutter App
 
-A new Flutter project.
+A mobile app built with Flutter that helps users track generator usage, fuel input, runtime, and remaining fuel. The app includes features like location tagging, image upload, CSV export, and role-based management.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Add and manage multiple generators
+- Upload generator photos using `image_picker`
+- Capture generator location using `geolocator`
+- Record generator runtime and fuel usage
+- View generator reports and export to CSV
+- Share reports via email or messaging apps
+- Built-in roles (admin/operator - concept only)
+- Clean and responsive UI using Material Design
+- Persistent storage using Hive
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter**
+- **Dart**
+- **Hive** (for local storage)
+- **image_picker** (for photo upload)
+- **geolocator** (for location)
+- **csv** and **share_plus** (for exporting and sharing)
+- **GitHub** (for version control and collaboration)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
