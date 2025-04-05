@@ -1,10 +1,10 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+
 
 part of 'generator.dart';
 
-// **************************************************************************
+
 // TypeAdapterGenerator
-// **************************************************************************
+
 
 class GeneratorAdapter extends TypeAdapter<Generator> {
   @override
